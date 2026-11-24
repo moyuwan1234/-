@@ -1,0 +1,5 @@
+source,target,value
+A,B,30
+A,C,20
+C,D,40
+D,B,10
