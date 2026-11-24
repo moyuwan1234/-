@@ -1,0 +1,22 @@
+{
+  "experiment_id": "T03-001",
+  "style_id": "STYLE-0000",
+  "style_version": "0.1.0",
+  "test_id": "T03",
+  "model": "",
+  "model_version": "",
+  "settings": {},
+  "seed": null,
+  "prompt_format": "",
+  "prompt_path": "",
+  "theme": {},
+  "changed_variable": "",
+  "controlled_variables": [],
+  "output_paths": [],
+  "rule_results": [],
+  "scores": {},
+  "hard_failures": [],
+  "reviewer": "",
+  "conclusion": "pending",
+  "revision_ids": []
+}

@@ -1,0 +1,22 @@
+{
+  "theme": {
+    "zh": "{{主题}}",
+    "en": "{{theme}}"
+  },
+  "subject": {
+    "zh": "{{主体}}",
+    "en": "{{subject}}"
+  },
+  "scene": {
+    "zh": "{{场景}}",
+    "en": "{{scene}}"
+  },
+  "subject_category": "other",
+  "complexity": "unknown",
+  "aspect_ratio": "unspecified",
+  "required_features": {
+    "zh": "由用户提供",
+    "en": "User supplied"
+  },
+  "conflicts": []
+}

@@ -1,0 +1,731 @@
+{
+  "schema_version": "2.0",
+  "style_id": "STYLE-0001",
+  "version": "0.1.0",
+  "name": {
+    "zh": "极简黑白线描（假设示例）",
+    "en": "Minimal black-and-white line art (hypothetical example)"
+  },
+  "status": "demonstration",
+  "sources": [
+    {
+      "source_id": "H01",
+      "description": {
+        "zh": "人为构造的风格示例，无真实参考图",
+        "en": "Constructed example; no actual reference image"
+      }
+    }
+  ],
+  "dimensions": {
+    "style_identity": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "medium": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    },
+    "abstraction_level": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "color": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    },
+    "lighting": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    },
+    "shape": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    },
+    "line": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    },
+    "brushwork": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "material": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "texture": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    },
+    "composition": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    },
+    "space": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "scale": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "visual_organization": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "edge_control": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "finish_control": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "information_density": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    },
+    "detail_language": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "visual_hierarchy": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "visual_anchor": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "visual_path": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "visual_tension": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "mood": {
+      "status": "unknown",
+      "reason": {
+        "zh": "示例未定义此维度，不应补造",
+        "en": "Not specified in the example; do not invent"
+      }
+    },
+    "subject_translation": {
+      "status": "analyzed",
+      "reason": {
+        "zh": "假设示例已定义",
+        "en": "Defined in hypothetical example"
+      }
+    }
+  },
+  "rules": [
+    {
+      "rule_id": "COL-001",
+      "dimension": "color",
+      "observation": {
+        "zh": "仅用黑白两种颜色表现",
+        "en": "Render using only black and white"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "core",
+      "instruction": {
+        "zh": "仅用黑白两种颜色表现",
+        "en": "Render using only black and white"
+      },
+      "allowed_variation": {
+        "zh": "仅抗锯齿允许中间灰",
+        "en": "Intermediate gray only for antialiasing"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 100,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：仅用黑白两种颜色表现",
+        "en": "Check that output satisfies: Render using only black and white"
+      }
+    },
+    {
+      "rule_id": "MED-001",
+      "dimension": "medium",
+      "observation": {
+        "zh": "采用二维平面线描，不使用体积渲染",
+        "en": "Use flat 2D line art, without volumetric rendering"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "core",
+      "instruction": {
+        "zh": "采用二维平面线描，不使用体积渲染",
+        "en": "Use flat 2D line art, without volumetric rendering"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 100,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：采用二维平面线描，不使用体积渲染",
+        "en": "Check that output satisfies: Use flat 2D line art, without volumetric rendering"
+      }
+    },
+    {
+      "rule_id": "SHP-001",
+      "dimension": "shape",
+      "observation": {
+        "zh": "以概括性轮廓保留对象主要识别结构",
+        "en": "Use simplified contours that retain essential identifying structure"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "core",
+      "instruction": {
+        "zh": "以概括性轮廓保留对象主要识别结构",
+        "en": "Use simplified contours that retain essential identifying structure"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 95,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：以概括性轮廓保留对象主要识别结构",
+        "en": "Check that output satisfies: Use simplified contours that retain essential identifying structure"
+      }
+    },
+    {
+      "rule_id": "LIN-001",
+      "dimension": "line",
+      "observation": {
+        "zh": "细线为主，少量较粗线用于外轮廓或重点",
+        "en": "Use mostly thin lines, with selectively heavier contours or accents"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "stable",
+      "instruction": {
+        "zh": "细线为主，少量较粗线用于外轮廓或重点",
+        "en": "Use mostly thin lines, with selectively heavier contours or accents"
+      },
+      "allowed_variation": {
+        "zh": "线宽可随画幅缩放，保持相对层级",
+        "en": "Scale widths with canvas while preserving relative hierarchy"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：细线为主，少量较粗线用于外轮廓或重点",
+        "en": "Check that output satisfies: Use mostly thin lines, with selectively heavier contours or accents"
+      }
+    },
+    {
+      "rule_id": "COM-001",
+      "dimension": "composition",
+      "observation": {
+        "zh": "主次明确，保留适度留白",
+        "en": "Maintain clear hierarchy and moderate negative space"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "stable",
+      "instruction": {
+        "zh": "主次明确，保留适度留白",
+        "en": "Maintain clear hierarchy and moderate negative space"
+      },
+      "allowed_variation": {
+        "zh": "位置随主题及画幅调整",
+        "en": "Placement may adapt to theme and aspect ratio"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：主次明确，保留适度留白",
+        "en": "Check that output satisfies: Maintain clear hierarchy and moderate negative space"
+      }
+    },
+    {
+      "rule_id": "DEN-001",
+      "dimension": "information_density",
+      "observation": {
+        "zh": "整体克制，减少非识别性细节",
+        "en": "Keep overall density restrained and remove non-identifying details"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "stable",
+      "instruction": {
+        "zh": "整体克制，减少非识别性细节",
+        "en": "Keep overall density restrained and remove non-identifying details"
+      },
+      "allowed_variation": {
+        "zh": "可随主体复杂度调整局部密度",
+        "en": "Local density can adapt to subject complexity"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：整体克制，减少非识别性细节",
+        "en": "Check that output satisfies: Keep overall density restrained and remove non-identifying details"
+      }
+    },
+    {
+      "rule_id": "LGT-001",
+      "dimension": "lighting",
+      "observation": {
+        "zh": "禁止写实阴影和渐变光照",
+        "en": "Exclude realistic shadows and gradient lighting"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "negative",
+      "instruction": {
+        "zh": "禁止写实阴影和渐变光照",
+        "en": "Exclude realistic shadows and gradient lighting"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：禁止写实阴影和渐变光照",
+        "en": "Check that output satisfies: Exclude realistic shadows and gradient lighting"
+      }
+    },
+    {
+      "rule_id": "TEX-001",
+      "dimension": "texture",
+      "observation": {
+        "zh": "禁止添加无关的颗粒纹理和三维光泽",
+        "en": "Exclude unrelated grain textures and 3D gloss"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "negative",
+      "instruction": {
+        "zh": "禁止添加无关的颗粒纹理和三维光泽",
+        "en": "Exclude unrelated grain textures and 3D gloss"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：禁止添加无关的颗粒纹理和三维光泽",
+        "en": "Check that output satisfies: Exclude unrelated grain textures and 3D gloss"
+      }
+    },
+    {
+      "rule_id": "SUB-001",
+      "dimension": "subject_translation",
+      "observation": {
+        "zh": "根据对象结构简化形态，保留必要识别特征",
+        "en": "Simplify according to object structure while preserving essential identifying features"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "adaptive",
+      "instruction": {
+        "zh": "根据对象结构简化形态，保留必要识别特征",
+        "en": "Simplify according to object structure while preserving essential identifying features"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：根据对象结构简化形态，保留必要识别特征",
+        "en": "Check that output satisfies: Simplify according to object structure while preserving essential identifying features"
+      }
+    },
+    {
+      "rule_id": "SUB-002",
+      "dimension": "subject_translation",
+      "observation": {
+        "zh": "保留建筑主要屋顶、门窗和结构关系，以概括线条转译",
+        "en": "Preserve identifying roof, opening and structural relationships using simplified lines"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "adaptive",
+      "instruction": {
+        "zh": "保留建筑主要屋顶、门窗和结构关系，以概括线条转译",
+        "en": "Preserve identifying roof, opening and structural relationships using simplified lines"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [
+          "architecture"
+        ],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：保留建筑主要屋顶、门窗和结构关系，以概括线条转译",
+        "en": "Check that output satisfies: Preserve identifying roof, opening and structural relationships using simplified lines"
+      }
+    },
+    {
+      "rule_id": "SUB-003",
+      "dimension": "subject_translation",
+      "observation": {
+        "zh": "保留枝干走向与叶形，用概括线条表达生长关系",
+        "en": "Preserve branch direction and leaf shape, depicting growth with simplified lines"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "adaptive",
+      "instruction": {
+        "zh": "保留枝干走向与叶形，用概括线条表达生长关系",
+        "en": "Preserve branch direction and leaf shape, depicting growth with simplified lines"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [
+          "plant"
+        ],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：保留枝干走向与叶形，用概括线条表达生长关系",
+        "en": "Check that output satisfies: Preserve branch direction and leaf shape, depicting growth with simplified lines"
+      }
+    },
+    {
+      "rule_id": "SUB-004",
+      "dimension": "subject_translation",
+      "observation": {
+        "zh": "保留产品功能轮廓与主要几何结构",
+        "en": "Preserve functional contours and major geometric structures"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "adaptive",
+      "instruction": {
+        "zh": "保留产品功能轮廓与主要几何结构",
+        "en": "Preserve functional contours and major geometric structures"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [
+          "product"
+        ],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：保留产品功能轮廓与主要几何结构",
+        "en": "Check that output satisfies: Preserve functional contours and major geometric structures"
+      }
+    },
+    {
+      "rule_id": "DEN-002",
+      "dimension": "information_density",
+      "observation": {
+        "zh": "复杂对象优先保留识别性结构，合并重复细节",
+        "en": "For complex objects prioritize identifying structures and merge repeated details"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "adaptive",
+      "instruction": {
+        "zh": "复杂对象优先保留识别性结构，合并重复细节",
+        "en": "For complex objects prioritize identifying structures and merge repeated details"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": [
+          "high"
+        ]
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：复杂对象优先保留识别性结构，合并重复细节",
+        "en": "Check that output satisfies: For complex objects prioritize identifying structures and merge repeated details"
+      }
+    },
+    {
+      "rule_id": "SUB-005",
+      "dimension": "subject_translation",
+      "observation": {
+        "zh": "主题、主体及场景由用户替换",
+        "en": "Theme, subject and scene are user-replaceable"
+      },
+      "evidence": [
+        {
+          "source_id": "H01",
+          "region": "concept",
+          "type": "hypothetical",
+          "note": {
+            "zh": "示例设定，非实际图像观测",
+            "en": "Illustrative assumption, not an image observation"
+          }
+        }
+      ],
+      "gene_type": "free",
+      "instruction": {
+        "zh": "主题、主体及场景由用户替换",
+        "en": "Theme, subject and scene are user-replaceable"
+      },
+      "allowed_variation": {
+        "zh": "不改变规则所定义的关系",
+        "en": "Preserve the defined relationship"
+      },
+      "condition": {
+        "subject_categories": [],
+        "complexities": []
+      },
+      "priority": 50,
+      "confidence": "low",
+      "validation": {
+        "zh": "检查生成结果是否满足：主题、主体及场景由用户替换",
+        "en": "Check that output satisfies: Theme, subject and scene are user-replaceable"
+      }
+    }
+  ]
+}

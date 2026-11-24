@@ -1,0 +1,136 @@
+{
+  "task_type": "universal_visual_style_cloning",
+  "style_id": "STYLE-0001",
+  "version": "0.1.0",
+  "style_name": "Minimal black-and-white line art (hypothetical example)",
+  "mode": "general_template",
+  "theme_variables": {
+    "theme": "{{theme}}",
+    "subject": "{{subject}}",
+    "scene": "{{scene}}",
+    "subject_category": "{{subject_category}}",
+    "complexity": "{{complexity}}",
+    "aspect_ratio": "{{aspect_ratio}}",
+    "required_features": "User supplied"
+  },
+  "constraints": "Preserve core rules; obey negative rules; apply conditional rules only when conditions match; resolve conflicts before generation.",
+  "rules": [
+    {
+      "rule_id": "COL-001",
+      "dimension": "color",
+      "gene_type": "core",
+      "instruction": "Render using only black and white",
+      "allowed_variation": "Intermediate gray only for antialiasing",
+      "condition": "any",
+      "priority": 100
+    },
+    {
+      "rule_id": "MED-001",
+      "dimension": "medium",
+      "gene_type": "core",
+      "instruction": "Use flat 2D line art, without volumetric rendering",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "any",
+      "priority": 100
+    },
+    {
+      "rule_id": "SHP-001",
+      "dimension": "shape",
+      "gene_type": "core",
+      "instruction": "Use simplified contours that retain essential identifying structure",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "any",
+      "priority": 95
+    },
+    {
+      "rule_id": "COM-001",
+      "dimension": "composition",
+      "gene_type": "stable",
+      "instruction": "Maintain clear hierarchy and moderate negative space",
+      "allowed_variation": "Placement may adapt to theme and aspect ratio",
+      "condition": "any",
+      "priority": 50
+    },
+    {
+      "rule_id": "DEN-001",
+      "dimension": "information_density",
+      "gene_type": "stable",
+      "instruction": "Keep overall density restrained and remove non-identifying details",
+      "allowed_variation": "Local density can adapt to subject complexity",
+      "condition": "any",
+      "priority": 50
+    },
+    {
+      "rule_id": "LIN-001",
+      "dimension": "line",
+      "gene_type": "stable",
+      "instruction": "Use mostly thin lines, with selectively heavier contours or accents",
+      "allowed_variation": "Scale widths with canvas while preserving relative hierarchy",
+      "condition": "any",
+      "priority": 50
+    },
+    {
+      "rule_id": "DEN-002",
+      "dimension": "information_density",
+      "gene_type": "adaptive",
+      "instruction": "For complex objects prioritize identifying structures and merge repeated details",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "complexity: high",
+      "priority": 50
+    },
+    {
+      "rule_id": "SUB-001",
+      "dimension": "subject_translation",
+      "gene_type": "adaptive",
+      "instruction": "Simplify according to object structure while preserving essential identifying features",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "any",
+      "priority": 50
+    },
+    {
+      "rule_id": "SUB-002",
+      "dimension": "subject_translation",
+      "gene_type": "adaptive",
+      "instruction": "Preserve identifying roof, opening and structural relationships using simplified lines",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "subject category: architecture",
+      "priority": 50
+    },
+    {
+      "rule_id": "SUB-003",
+      "dimension": "subject_translation",
+      "gene_type": "adaptive",
+      "instruction": "Preserve branch direction and leaf shape, depicting growth with simplified lines",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "subject category: plant",
+      "priority": 50
+    },
+    {
+      "rule_id": "SUB-004",
+      "dimension": "subject_translation",
+      "gene_type": "adaptive",
+      "instruction": "Preserve functional contours and major geometric structures",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "subject category: product",
+      "priority": 50
+    },
+    {
+      "rule_id": "LGT-001",
+      "dimension": "lighting",
+      "gene_type": "negative",
+      "instruction": "Exclude realistic shadows and gradient lighting",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "any",
+      "priority": 50
+    },
+    {
+      "rule_id": "TEX-001",
+      "dimension": "texture",
+      "gene_type": "negative",
+      "instruction": "Exclude unrelated grain textures and 3D gloss",
+      "allowed_variation": "Preserve the defined relationship",
+      "condition": "any",
+      "priority": 50
+    }
+  ]
+}

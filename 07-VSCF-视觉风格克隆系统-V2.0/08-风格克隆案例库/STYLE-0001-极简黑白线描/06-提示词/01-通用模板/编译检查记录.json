@@ -1,0 +1,27 @@
+{
+  "style_id": "STYLE-0001",
+  "style_version": "0.1.0",
+  "asset_status": "demonstration",
+  "mode": "general_template",
+  "included_rule_ids": [
+    "COL-001",
+    "MED-001",
+    "SHP-001",
+    "COM-001",
+    "DEN-001",
+    "LIN-001",
+    "DEN-002",
+    "SUB-001",
+    "SUB-002",
+    "SUB-003",
+    "SUB-004",
+    "LGT-001",
+    "TEX-001"
+  ],
+  "excluded_rule_ids": [
+    "SUB-005"
+  ],
+  "structural_checks": "pass",
+  "semantic_translation_review": "pending",
+  "visual_generation_validation": "not_run"
+}

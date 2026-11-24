@@ -1,0 +1,182 @@
+{
+  "schema_version": "2.0",
+  "style_id": "STYLE-0000",
+  "version": "0.1.0",
+  "name": {
+    "zh": "待分析风格",
+    "en": "Style to be analyzed"
+  },
+  "status": "draft",
+  "sources": [],
+  "dimensions": {
+    "style_identity": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "medium": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "abstraction_level": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "color": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "lighting": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "shape": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "line": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "brushwork": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "material": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "texture": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "composition": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "space": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "scale": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "visual_organization": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "edge_control": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "finish_control": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "information_density": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "detail_language": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "visual_hierarchy": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "visual_anchor": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "visual_path": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "visual_tension": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "mood": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    },
+    "subject_translation": {
+      "status": "unknown",
+      "reason": {
+        "zh": "待观察",
+        "en": "Pending observation"
+      }
+    }
+  },
+  "rules": []
+}

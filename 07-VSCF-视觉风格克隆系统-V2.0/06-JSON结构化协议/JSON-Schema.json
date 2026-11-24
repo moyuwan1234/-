@@ -1,0 +1,374 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vscf:style-dna:2.0",
+  "title": "VSCF Canonical Style DNA 2.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "style_id",
+    "version",
+    "name",
+    "status",
+    "sources",
+    "dimensions",
+    "rules"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "style_id": {
+      "type": "string",
+      "pattern": "^STYLE-[0-9]{4,}$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "name": {
+      "$ref": "#/$defs/bilingual"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "candidate",
+        "testing",
+        "validated",
+        "deprecated",
+        "demonstration"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "description"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "$ref": "#/$defs/bilingual"
+          }
+        }
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "style_identity",
+        "medium",
+        "abstraction_level",
+        "color",
+        "lighting",
+        "shape",
+        "line",
+        "brushwork",
+        "material",
+        "texture",
+        "composition",
+        "space",
+        "scale",
+        "visual_organization",
+        "edge_control",
+        "finish_control",
+        "information_density",
+        "detail_language",
+        "visual_hierarchy",
+        "visual_anchor",
+        "visual_path",
+        "visual_tension",
+        "mood",
+        "subject_translation"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "style_identity": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "medium": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "abstraction_level": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "color": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "lighting": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "shape": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "line": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "brushwork": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "material": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "texture": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "composition": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "space": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "scale": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "visual_organization": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "edge_control": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "finish_control": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "information_density": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "detail_language": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "visual_hierarchy": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "visual_anchor": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "visual_path": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "visual_tension": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "mood": {
+          "$ref": "#/$defs/dimension_state"
+        },
+        "subject_translation": {
+          "$ref": "#/$defs/dimension_state"
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/rule"
+      }
+    }
+  },
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "required": [
+        "zh",
+        "en"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "condition": {
+      "type": "object",
+      "required": [
+        "subject_categories",
+        "complexities"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "subject_categories": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "architecture",
+              "plant",
+              "person",
+              "animal",
+              "product",
+              "landscape",
+              "abstract",
+              "mixed",
+              "other"
+            ]
+          }
+        },
+        "complexities": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "unknown"
+            ]
+          }
+        }
+      }
+    },
+    "rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rule_id",
+        "dimension",
+        "observation",
+        "evidence",
+        "gene_type",
+        "instruction",
+        "allowed_variation",
+        "condition",
+        "priority",
+        "confidence",
+        "validation"
+      ],
+      "properties": {
+        "rule_id": {
+          "type": "string",
+          "pattern": "^[A-Z]{2,4}-[0-9]{3}$"
+        },
+        "dimension": {
+          "enum": [
+            "style_identity",
+            "medium",
+            "abstraction_level",
+            "color",
+            "lighting",
+            "shape",
+            "line",
+            "brushwork",
+            "material",
+            "texture",
+            "composition",
+            "space",
+            "scale",
+            "visual_organization",
+            "edge_control",
+            "finish_control",
+            "information_density",
+            "detail_language",
+            "visual_hierarchy",
+            "visual_anchor",
+            "visual_path",
+            "visual_tension",
+            "mood",
+            "subject_translation"
+          ]
+        },
+        "observation": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "source_id",
+              "region",
+              "type",
+              "note"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "region": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "enum": [
+                  "direct",
+                  "measured",
+                  "inferred",
+                  "hypothetical"
+                ]
+              },
+              "note": {
+                "$ref": "#/$defs/bilingual"
+              }
+            }
+          }
+        },
+        "gene_type": {
+          "enum": [
+            "core",
+            "stable",
+            "adaptive",
+            "free",
+            "negative"
+          ]
+        },
+        "instruction": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "allowed_variation": {
+          "$ref": "#/$defs/bilingual"
+        },
+        "condition": {
+          "$ref": "#/$defs/condition"
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "confidence": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "validation": {
+          "$ref": "#/$defs/bilingual"
+        }
+      }
+    },
+    "dimension_state": {
+      "type": "object",
+      "required": [
+        "status",
+        "reason"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "analyzed",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "reason": {
+          "$ref": "#/$defs/bilingual"
+        }
+      }
+    }
+  }
+}
