@@ -23,6 +23,11 @@
 | 15 | [编年图+编目混合图](./15-%E7%BC%96%E5%B9%B4%E5%9B%BE%2B%E7%BC%96%E7%9B%AE%E6%B7%B7%E5%90%88%E5%9B%BE/README.md) | 36–37 | 25 |
 | 16 | [三维信息图形（3D Infographics）](./16-%E4%B8%89%E7%BB%B4%E4%BF%A1%E6%81%AF%E5%9B%BE%E5%BD%A2%EF%BC%883D%20Infographics%EF%BC%89/README.md) | 38 | 24 |
 
+## 基础设计方式标签（独立于16种类型）
+
+- [ISOTYPE｜基础设计方式](./%E6%A0%87%E7%AD%BE-ISOTYPE%EF%BC%88%E5%9F%BA%E7%A1%80%E8%AE%BE%E8%AE%A1%E6%96%B9%E5%BC%8F%EF%BC%89/README.md)：系统化象形符号、数量映射与视觉教育方法。适用于跨类型案例，不计入16种类型，不改变原分类。
+- [ISOTYPE标签案例索引](./%E6%A0%87%E7%AD%BE-ISOTYPE%EF%BC%88%E5%9F%BA%E7%A1%80%E8%AE%BE%E8%AE%A1%E6%96%B9%E5%BC%8F%EF%BC%89/ISOTYPE%E6%A0%87%E7%AD%BE%E6%A1%88%E4%BE%8B%E7%B4%A2%E5%BC%95.md)：已确认与待核验候选分开登记。
+
 ## 课件补充归档
 
 - [第1–21页：五种数据逻辑与导入案例](./17-%E6%95%B0%E6%8D%AE%E6%9E%B6%E6%9E%84%E9%80%BB%E8%BE%91%E8%AF%BE%E4%BB%B6%E6%A1%88%E4%BE%8B%EF%BC%88%E7%AC%AC1-21%E9%A1%B5%EF%BC%89/README.md)
