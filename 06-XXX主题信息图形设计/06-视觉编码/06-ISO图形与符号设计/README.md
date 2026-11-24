@@ -5,6 +5,6 @@
 - 重复符号的计量单位与余数规则（如适用）：
 - 识别性和图例测试：
 
-参考[ISOTYPE信息图](../../../03-ISOTYPE信息图/README.md)。
+参考[ISOTYPE信息图](../../../03-ISOTYOPE信息图/README.md)。
 
 [返回阶段首页](../README.md)

@@ -34,7 +34,7 @@
 ## 案例索引与关联
 
 - [ISOTYPE标签案例索引](./ISOTYPE标签案例索引.md)
-- [03-ISOTYPE信息图：专项研究](../../03-ISOTYPE信息图/README.md)
+- [03-ISOTYOPE信息图：专项研究](../../03-ISOTYOPE信息图/README.md)
 - [案例分析模板](../案例分析模板.md)
 - [返回16种信息图形类型目录](../README.md)
 
